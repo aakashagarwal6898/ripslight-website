@@ -11,8 +11,8 @@
         <script src="scripts/uikit-icons.min.js"></script>
 
     </head>
-    <body>
-        <nav class="uk-container uk-container-expand" uk-navbar>
+    <body class="uk-container">
+        <nav class="uk-container" uk-navbar>
             <div class="uk-navbar-right">
                 <ul class="uk-navbar-nav">
                     <li class="uk-active"><a href="#">Home</a></li>
@@ -22,8 +22,114 @@
                 </ul>
             </div>
         </nav>
-
         
+        <div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="autoplay: true; ratio: 8:3">
+            <ul class="uk-slideshow-items">
+                <li>
+                    <img src="images/img1.jpg" alt="">
+                    
+                </li>
+                <li>
+                    <img src="images/img2.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/img3.jpg" alt="">
+                </li>
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        
+        </div>    
+
+        <h1 class="uk-text-center uk-margin-medium-bottom">Our Range</h1>
+
+        <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+            <div>
+
+                <div class="uk-card uk-card-large uk-card-default uk-card-hover uk-card-body">
+                    <h3 class="uk-card-title">LED Products</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-large uk-card-default uk-card-hover uk-card-body">
+                    <h3 class="uk-card-title">Solar Products</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <h1 class="uk-text-center uk-margin-large">About Us</h1>
+        <p class="uk-text-center uk-text-regular">RIPS has in-house design, testing & manufacturing facility of LED Lights & Solar products. We use top brands of lighting class LED's and indigenously developed constant current LED driver for maximum reliability. Life expectancy of our Lights are minimum 50,000 hrs and we offer WARRANTY of 3 years of complete lights.</p>
+        
+        <div class="uk-child-width-1-3@m uk-grid-small uk-grid-collapse uk-margin-large" uk-grid>
+            <div>
+                <div class="uk-tile uk-tile-primary">
+                    <span uk-icon="icon:heart; ratio: 3"></span>
+                    <h3 class="uk-card-title">Feature #1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-tile uk-tile-secondary">
+                    <span uk-icon="icon:bolt; ratio: 3"></span>
+                    <h3 class="uk-card-title">Feature #2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-tile uk-tile-primary">
+                    <span uk-icon="icon:dribbble; ratio: 3"></span>
+                    <h3 class="uk-card-title">Feature #3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <h1 class="uk-text-center uk-margin-large">Contact Us</h1>
+
+        <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+            <div class="uk-card uk-card-large uk-card-default uk-card-body uk-align-center">
+                
+                <form class="uk-form-width-larger">
+                    <fieldset class="uk-fieldset">
+
+                        <div class="uk-margin">
+                            <p>Name:</p>
+                            <input class="uk-input" type="text" placeholder="">
+                        </div>
+                            
+                        <div class="uk-margin">
+                            <p>Email address:</p>
+                            <input class="uk-input" type="text" placeholder="">
+                        </div>
+                        <div class="uk-margin">
+                            <p>Contact number:</p>
+                            <input class="uk-input" type="text" placeholder="">
+                        </div>
+                        <div class="uk-margin">
+                            <p>Tell us about your requirements:</p>
+                            <textarea class="uk-textarea" rows="5" placeholder=""></textarea>
+                        </div>
+                        
+                        <button class="uk-button uk-button-default uk-align-right">SUBMIT</button>
+                        
+                       
+                
+                        
+                    
+                
+                    </fieldset>
+                    
+                </form>
+                
+            </div>
+            
+        </div>
+
     </body>
     
 </html>
