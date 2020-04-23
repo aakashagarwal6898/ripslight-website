@@ -1,0 +1,23 @@
+
+:root{
+    --primary_color: #2ba27c;
+    --secondary_color: #144d3a;
+    --accent1: #36ca9a;
+    --accent2: #66d8b4;
+    --accent3: #ffffff;
+
+    --text_font: 'Roboto', 'Open Sans', sans-serif;
+    --header_font:none;
+    --para_font:none;
+
+
+}
+
+.navbar{
+
+   background-color: var(--accent1);
+   font-family: var(--text_font);
+   font-weight: 900;
+
+    
+}

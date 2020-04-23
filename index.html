@@ -10,24 +10,29 @@
         <link rel="stylesheet" href="stylesheets/uikit.min.css" />
         <script src="scripts/uikit.min.js"></script>
         <script src="scripts/uikit-icons.min.js"></script>
+        <link rel="stylesheet" href="stylesheets/custom-mod.css" />
+
 
     </head>
 
     
     <body>
+
+        <div  class="navbar" uk-sticky="sel-target: uk-navbar-container; cls-inactive: uk-navbar-transparent uk-dark; cls-active: uk-navbar-sticky">
+            <nav class="uk-navbar-container" uk-navbar>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                        <li  class="uk-active"><a href="#">Home</a></li>
+                        <li ><a href="#">Products</a></li>
+                        <li ><a href="#">About us</a></li>
+                        <li ><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
         <div class="uk-container">
-            <div uk-sticky="sel-target: uk-navbar-container; cls-active: uk-navbar-sticky uk-dark">
-                <nav class="uk-container" uk-navbar>
-                    <div class="uk-navbar-right">
-                        <ul class="uk-navbar-nav">
-                            <li class="uk-active"><a href="#">Home</a></li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Contact us</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+
             
             <div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="autoplay: true; ratio: 8:3">
                 <ul class="uk-slideshow-items">
@@ -69,7 +74,9 @@
             </div>
 
             <h2 class="uk-text-bold uk-text-left uk-margin-medium">About Us</h2>
-            <p class="uk-text-left uk-text-regular">RIPS has in-house design, testing & manufacturing facility of LED Lights & Solar products. We use top brands of lighting class LED's and indigenously developed constant current LED driver for maximum reliability. Life expectancy of our Lights are minimum 50,000 hrs and we offer WARRANTY of 3 years of complete lights.</p>
+            <p class="uk-text-left uk-text-regular">We assist businesses bring down their power consumption costs, while tremendously reducing their carbon footprint.
+                We guarantee to provide you with highest quality products at the lowest price. Our team has been working for over 30 years in the industry and all our of our products are designed, manufactured and tested by us. A greener tomorrow is not just an idea for us and more of a reality to which we get closer everyday by working together.
+                So give us a call or drop us a mail to discuss on how we can assist you in making your business more efficient and greener!</p>
             
             <div class="uk-child-width-1-4@m uk-grid-small uk-grid-match uk-margin-large" uk-grid>
                 <div>
