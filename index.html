@@ -18,8 +18,8 @@
     
     <body>
 
-        <div  class="navbar" uk-sticky="sel-target: uk-navbar-container; cls-inactive: uk-navbar-transparent uk-dark; cls-active: uk-navbar-sticky">
-            <nav class="uk-navbar-container" uk-navbar>
+        <div  class="navbar" uk-sticky="sel-target: uk-navbar-container; cls-inactive: uk-dark; cls-active: uk-navbar-sticky uk-dark">
+            <nav id="navbar_container" class="uk-navbar-container" uk-navbar>
                 <div class="uk-navbar-right">
                     <ul class="uk-navbar-nav">
                         <li  class="uk-active"><a href="#">Home</a></li>
@@ -53,71 +53,79 @@
             
             </div>    
                 
-            
-            <h2 class="uk-text-bold uk-text-left uk-margin-medium-bottom">Our Range</h2>
+            <div class="uk-margin-large">
+                <h2 class="uk-text-bold uk-text-left">Our Range</h2>
 
-            <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
-                <div>
-
-                    <div class="uk-card uk-card-large uk-card-default uk-card-hover uk-card-body">
-                        <h3 class="uk-card-title">LED Products</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+                    
+                    <div>
+                        <div class="uk-card uk-card-medium uk-card-default uk-card-hover uk-card-body">
+                            <div class="uk-grid-collapse" uk-grid>
+                                <div class= "uk-width-1-6@s">
+                                    <img class="categories_icons" src="images/led-icon.svg" uk-svg>
+                                </div>
+                                <div class= "uk-width-5-6@s">
+                                    <h3 class="uk-card-title">LED Products</h3>
+                                    <p class="uk-text-regular">Street Lights | High Bay Lights | Flood Lights | Well Glass</p>
+                                </div>
+                            </div>
+                            
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div class="uk-card uk-card-large uk-card-default uk-card-hover uk-card-body">
-                        <h3 class="uk-card-title">Solar Products</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    
+                    <div>
+                        <div  class="uk-card uk-card-medium uk-card-default uk-card-hover uk-card-body">
+                            <div class="uk-grid-collapse" uk-grid>
+                                <div class= "uk-width-1-6@s">
+                                    <img class="categories_icons" src="images/sun-icon.svg" uk-svg>
+                                </div>
+                                <div class= "uk-width-5-6@s">
+                                    <h3 class="uk-card-title">Solar Products</h3>
+                                    <p>Solar Home Lights | Solar Street Lights</p>
+                                </div>
+                            </div>
+                            
+                        </div>
                     </div>
+                
                 </div>
-
             </div>
-
-            <div class="uk-margin-medium-top">
-                <h2 class="uk-text-bold uk-text-left">About Us</h2>
-                <p class="uk-text-left uk-text-regular">
+            
+            <div id="about_con" class=" uk-tile uk-tile-default uk-margin uk-border-rounded">
+                <h2 class="uk-text-bold uk-text-center">About Us</h2>
+                <p class="uk-text-left uk-text-regular uk-text-center uk-margin-medium-right uk-margin-medium-left ">
                     We assist businesses bring down their power consumption costs, while tremendously reducing their carbon footprint.
                     We guarantee to provide you with highest quality products at the lowest price. Our team has been working for over 30 years in the industry and all our of our products are designed, manufactured and tested by us. A greener tomorrow is not just an idea for us and more of a reality to which we get closer everyday by working together.
-                    So give us a call or drop us a mail to discuss on how we can assist you in making your business more efficient and greener!
-                    
-                    
-                 </p>
-                 <button class="uk-button uk-button-primary uk-align-center">Get in touch</button>
-                 <br>
+                   <br> So give us a call or drop us a mail to discuss on how we can assist you in making your business more efficient and greener!
                 
+                </p>
+                 <button class="uk-button uk-button-default uk-align-center">Get in touch</button>
+                
+                    
             </div>
 
 
 
-            <div class="uk-child-width-1-4@m uk-grid-small uk-grid-match uk-margin-medium" uk-grid>
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match uk-margin-medium" uk-grid>
                 <div>
-                    <div class="uk-card uk-card-hover uk-card-body uk-card-primary">
-                        <span uk-icon="icon:heart; ratio: 3"></span>
-                        <h3 class="uk-card-title">Feature #1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div  class="uk-card uk-card-hover uk-card-body uk-card-default">
+                        <span class="card_icons" uk-icon="icon:home; ratio: 3"></span>
+                        <p class="uk-text-center"> <b>In-house manufacturing and testing.</b> </p>
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-hover uk-card-body uk-card-secondary">
-                        <span uk-icon="icon:bolt; ratio: 3"></span>
-                        <h3 class="uk-card-title">Feature #2</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div  class="uk-card uk-card-hover uk-card-body uk-card-default">
+                        <span class="card_icons" uk-icon="icon:bolt; ratio: 3"></span>
+                        <p> <b> Blazing fast service and prompt delivery.</b> </p>
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-hover uk-card-body uk-card-primary">
-                        <span uk-icon="icon:dribbble; ratio: 3"></span>
-                        <h3 class="uk-card-title">Feature #3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div  class="uk-card uk-card-hover uk-card-body uk-card-default">
+                        <span class="card_icons" uk-icon="icon:users; ratio: 3"></span>
+                        <p> <b>100% customer satisfaction guaranteed.</b> </p>
                     </div>
                 </div>
-                <div>
-                    <div class="uk-card uk-card-hover uk-card-body uk-card-secondary">
-                        <span uk-icon="icon:dribbble; ratio: 3"></span>
-                        <h3 class="uk-card-title">Feature #4</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                </div>
+               
             </div>
             
               
@@ -146,7 +154,7 @@
                                 </div>
                                 <div class="uk-margin">
                                     <p>Tell us about your requirements:</p>
-                                    <textarea class="uk-textarea" rows="5" placeholder=""></textarea>
+                                    <textarea class="uk-textarea" rows="3" placeholder=""></textarea>
                                 </div>
                                 <button class="uk-button uk-button-default uk-align-right">SUBMIT</button>
                             </fieldset>
@@ -155,11 +163,18 @@
                 </div>
 
                   
-                <div class="uk-margin-large">
+                <div>
                     
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.938328430097!2d73.01440451517745!3d19.241519351748316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bc18ffffff95%3A0x886d2b8d952fbd4e!2sRed%20Instruments%20%26%20Power%20Solution%20Private%20Limited!5e0!3m2!1sen!2sin!4v1587630089021!5m2!1sen!2sin" 
-                    width="100%" height="80%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            
+                    width="100%" height="70%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                    <p> <b>Address:</b>
+                        T-110, Jai Mata Di Compound, Village, Taluka, Kalher, Bhiwandi, Maharashtra 421302 <br>
+                        <b>Email:</b> 
+                        ripslight@gmail.com <br>
+                        <b>Contact:</b>
+                        (+91) 9168822813 / 9168822812  <br>
+                    </p>
                 </div>
                 
                     
@@ -173,35 +188,7 @@
     
     </body>
     
-    <footer>
-        <div class="uk-section uk-section-muted">
-            <div class="uk-container">
-        
-                
-        
-                <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
-                    <div>
-                        <h3>Address</h3>
-                        <p>T-110, Jai Mata Di Compound, Village, Taluka, Kalher, Bhiwandi, Maharashtra 421302</p>
-                    </div>
-                    <div>
-                        <h3>Contact us</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                    </div>
-                    <div>
-                        <h3>Links</h3>
-                        <ul>
-                            <li>Home</li>
-                            <li>Products</li>
-                            <li>About us</li>
-                            <li>Contact us</li>
-                        </ul>
-                    </div>
-                </div>
-        
-            </div>
-        </div>
-    </footer>
+    
 
     
 

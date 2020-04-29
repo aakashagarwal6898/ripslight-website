@@ -1,10 +1,12 @@
 
 :root{
-    --primary_color: #2ba27c;
-    --secondary_color: #144d3a;
+    --primary_color: #65b419;
+    --secondary_color: #F58F21;
     --accent1: #36ca9a;
     --accent2: #66d8b4;
     --accent3: #ffffff;
+    --accent4: #333333;
+
 
     --text_font: 'Roboto', 'Open Sans', sans-serif;
     --header_font:none;
@@ -13,11 +15,34 @@
 
 }
 
+#about_con{
+    background-color: #e6fcef;
+}
+
 .navbar{
 
-   background-color: var(--accent1);
    font-family: var(--text_font);
-   font-weight: 900;
+   font-weight: 700;
 
     
+}
+#navbar_container{
+    background-color: var(--accent3);
+
+}
+
+.card_icons{
+    color: var(--secondary_color);
+}
+
+#card_features{
+    color: var(--accent4);
+}
+
+.categories_icons{
+
+    color: var(--primary_color);
+    height: 65px;
+    width: 65px;
+
 }
